@@ -26,7 +26,7 @@ def f(a,b):
     else:
            return(0)
 
-stu=input("请输入要被查找的序列，以逗号隔开，并按照从大到小的顺序:")
+stu=input("请输入要被查找的序列，以逗号隔开，并按照从小到大的顺序:")
 stu1=eval(stu)
 stu2=list(stu1)
 a=stu2
